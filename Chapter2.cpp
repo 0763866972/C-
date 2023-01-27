@@ -1,4 +1,4 @@
-                                                           // DẠNG câu lệnh IF else if eles loo alo 
+                                                           // DẠNG câu lệnh IF else if eles
 // && lệnh and nó đúng khi tất cả các điều kiện  đều đúng
 // || lệnh or  nó đúng khi một trong nhiều điều kiện nó đúng
 
