@@ -5,7 +5,7 @@
                                     // để cách khoảng khi in ra màn thì ta cách khoảng trong dấu " " này 
                                     // ví dụ in 2 cái biến a,b khi nhập code mà    "a"   ; "b"   ( z khi in ra nó sẽ ko cách khoảng ) 
                                     // để in cách khoảng a,b khi mà nhập code thì  " a " ; " b " ( z khi in ra có mới cách khoảng tức là trong dấu ngoặc kép phải có khoảng trống )
-        #include <stdio.h> // này khai báo tên thư viện để mình sử dụng câu lệnh vd hàm printf bên dưới á nếu 
+        #include <stdio.h> // này khai báo tên thư viện để mình sử dụng câu lệnh vd hàm printf bên dưới á nếu là
 // ko có cái khai báo thư viện này thì nó ko thể chạy đc bởi vì nó ko bt câu lệnh này ở đâu để mà nó sử dụng 
         #include <iostream> // cũng là khai báo thư viện nhưng để sử dụng cho câu lệnh cout bên dưới
          using namespace std;
