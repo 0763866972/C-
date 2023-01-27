@@ -1,5 +1,5 @@
 
-// CHÚ Ý CỰC KỲ: là các câu lệnh sẽ thực hiện theo thứ tự mà các bạn code từ trái qua phải và từ trên xuống dưới 
+// CHÚ Ý CỰC KỲ: là các câu lệnh sẽ thực hiện theo thứ tự mà các bạn code từ trái qua phải và từ trên xuống dưới và 
 
                                    
                                     // để cách khoảng khi in ra màn thì ta cách khoảng trong dấu " " này 
