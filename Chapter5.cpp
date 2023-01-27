@@ -2,7 +2,8 @@
 // cấu trúc vòng lặp while (điều kiện){ code và điều kiện lặp của lệnh while  } thấy thì giống vs if nhưng nó khác á nha 
 // nó con thêm cái điều kiện lặp của lệnh while nữa 
 
-// ví dụ 1 tính tổng các số hạng 1; 2; 3; 4; 5;.....n  bằng while
+// ví dụ 1 tính tổng các số hạng 1+2+3+4+5+...+n bằng lệnh  while
+// n là số số hạng 
 #include <iostream>
 using namespace std;
 #include <stdio.h>
