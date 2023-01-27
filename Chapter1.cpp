@@ -2,7 +2,7 @@
 // CHÚ Ý CỰC KỲ: là các câu lệnh sẽ thực hiện theo thứ tự mà các bạn code từ trái qua phải và từ trên xuống dưới 
 
                                    
-                                    // để cách khoảng khi in ra màn thì ta cách khoảng trong dấu " " này  là
+                                    // để cách khoảng khi in ra màn thì ta cách khoảng trong dấu " " này  
                                     // ví dụ in 2 cái biến a,b khi nhập code mà    "a"   ; "b"   ( z khi in ra nó sẽ ko cách khoảng ) 
                                     // để in cách khoảng a,b khi mà nhập code thì  " a " ; " b " ( z khi in ra có mới cách khoảng tức là trong dấu ngoặc kép phải có khoảng trống )
         #include <stdio.h> // này khai báo tên thư viện để mình sử dụng câu lệnh vd hàm printf bên dưới á nếu 
