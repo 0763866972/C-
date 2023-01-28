@@ -16,8 +16,8 @@ int main () {
     cout <<  "Mời bạn nhập giá trị n: ";
     cin >> n;
     while ( i <= n  ) { s = s + i; i++; }
-    cout <<  "Tổng là "<<s; 
+    cout <<  "Tổng là "<<s<<"\n"; 
 
-
-    
+    cout << "                                                 Bài   "<< "2" << endl;
+    // tính tổng các số 2 + 4 + 6 + 8 +...+ 2n n là số số hạng tính bằng lệnh while  
     }
