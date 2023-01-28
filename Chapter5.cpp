@@ -19,5 +19,14 @@ int main () {
     cout <<  "Tổng là "<<s<<"\n"; 
 
     cout << "                                                 Bài   "<< "2" << endl;
-    // tính tổng các số 2 + 4 + 6 + 8 +...+ 2n n là số số hạng tính bằng lệnh while  
+    // tính tổng các số 2 + 4 + 6 + 8 +...+ 2n (n) là số số hạng tính bằng lệnh while  
+    
+    int a = 1;
+    int b = 0;
+    int c;
+    cout <<  "Mời bạn nhập giá trị n: ";
+    cin >> c;
+    while ( a <= 2 * c  ) { if ( a % 2 == 0) { b = b + a;  } a++; }
+    cout <<  "Tổng là "<<b<<"\n"; 
+
     }
