@@ -96,8 +96,13 @@
         cout << " giá trị của u là:" << u << endl;          
 
 
-// HÀM TÍNH TỔNG, TÍCH, NHÂN, CHIA, CHIA CÓ DƯ, lớn, bé, bằng, lớn hơn hoặc bằng, khác (+, *, /, %, >, <, ==, >=,!=)
-                                                                                                         // một dấu bằng là lệnh gán còn cái này là toán tử
+// HÀM TÍNH TỔNG, TÍCH, NHÂN, CHIA, CHIA CÓ DƯ, lớn, bé, bằng, lớn hơn hoặc bằng, khác (+, *, /, %, >, <, ==, >=,!=)                                                                                                        // một dấu bằng là lệnh gán còn cái này là toán tử
+// Toán tử và viết tắt của toán tử cộng, trừ, nhân, chia (+, -, *, /)
+//  khi mà ghi z thì ta hiểu n/=10 ( n = n / 10 )
+//                           n*=10 ( n = n * 10 )
+//                           n+=10 ( n = n + 10 )
+//                           n-=10 ( n = n - 10 )
+
 
                                  // + Đối với stdio.h
             // do mình khai báo biến z, y r và lệnh nhâp biến từ màn hình r nên không cần làm lại nến bạn chưa khai báo và chưa có lệnh nhập thì bạn phải làm á nha            

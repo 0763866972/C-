@@ -32,5 +32,9 @@ int main () {
     cin >> c;
     while ( a <= 2 * c  ) { if ( a % 2 == 0) { b = b + a;  } a++; }
     cout <<  "Tổng là "<<b<<"\n"; 
+    
+    
+    cout << "                                                 Bài   "<< "3" << endl;
+// cho số 12345678 dùng vòng lặp while để đếm xem có bao nhiêu số hạng của dãy số trên 
 
     }
