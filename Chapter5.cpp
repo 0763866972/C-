@@ -23,7 +23,7 @@ int main () {
     cout <<  "Tổng là "<<s<<"\n"; 
 
     cout << "                                                 Bài   "<< "2" << endl;
-    // tính tổng các số 2 + 4 + 6 + 8 +...+ 2n (n) là số số hạng tính bằng lệnh while  
+    // Ví dụ 2: tính tổng các số 2 + 4 + 6 + 8 +...+ 2n (n) là số số hạng tính bằng lệnh while  
     
     int a = 1;
     int b = 0;
@@ -34,15 +34,20 @@ int main () {
     cout <<  "Tổng là "<<b<<"\n"; 
     
     
-    cout << "                                                 Bài   "<< "3" << endl;
-// cho số 12345678 dùng vòng lặp while để đếm xem có bao nhiêu số hạng của dãy số trên 
-int aa;
-    cout << " Mời bạn nhập giá trị của aa: ";
-    cin >> aa;
+    cout << "                                                 Bài 3   "<< "\n" << endl;
+// Ví dụ 3: cho số 12345678 dùng vòng lặp while để đếm xem có bao nhiêu số hạng của dãy số trên 
+    int aa = 12345678 ;
+    cout << "Số đề bài cho là: 12345678; " << "\n";
     int bb = 0;// biến để đếm xem có bao nhiêu số hạng  
 
     while ( aa != 0 ) { aa = aa / 10 ; bb++;  }
-     cout <<"Số các số hạng là:  "<< bb;
+     cout <<"Số các số hạng là:  "<< bb <<"\n";
+
+
+
+    cout << "                                                 Bài 4   "<< "\n" << endl;
+// Ví dụ 4: cho số như trên dùng vòng lặp while để đếm xem có bao nhiêu số chẵn 
+ cout << "Số đề bài cho là: 12345678; " << "\n";
     
 
     }

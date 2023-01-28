@@ -96,7 +96,7 @@
         cout << " giá trị của u là:" << u << endl;          
 
 
-// HÀM TÍNH TỔNG, TÍCH, NHÂN, CHIA, CHIA CÓ DƯ, lớn, bé, bằng, lớn hơn hoặc bằng, khác (+, *, /, %, >, <, ==, >=,!=)                                                                                                        // một dấu bằng là lệnh gán còn cái này là toán tử
+// HÀM TÍNH:: TỔNG, TÍCH, CHIA, CHIA CÓ DƯ, lớn, bé, bằng, lớn hơn hoặc bằng, khác (+, *, /, %, >, <, ==, >=,!=)                                                                                                        // một dấu bằng là lệnh gán còn cái này là toán tử
 // Toán tử và viết tắt của toán tử cộng, trừ, nhân, chia (+, -, *, /)
 //  khi mà ghi z thì ta hiểu n/=10 ( n = n / 10 )
 //                           n*=10 ( n = n * 10 )
