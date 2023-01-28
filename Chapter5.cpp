@@ -1,6 +1,10 @@
 //                                                              vòng lặp while và do while
 // cấu trúc vòng lặp while (điều kiện){ code và điều kiện lặp của lệnh while  } thấy thì giống vs if nhưng nó khác á nha 
 // nó con thêm cái điều kiện lặp của lệnh while nữa 
+// có thể bỏ qua vòng lặp while bằng dòng lệnh break  nếu while mà nó gặp dòng lệnh break thì nó sẽ dừng vòng lă
+// nếu gặp lệnh continue thì nó sẽ ko thực hiện câu lệnh code mà nó sẽ thực hiện lại vòng lặp while 
+
+
 
 // ví dụ 1 tính tổng các số hạng 1+2+3+4+5+...+n bằng lệnh  while
 // n là số số hạng 
