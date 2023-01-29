@@ -36,7 +36,7 @@ int main () {
     
     cout << "                                                 Bài 3   "<< "\n" << endl;
 // Ví dụ 3: cho số 12345678 dùng vòng lặp while để đếm xem có bao nhiêu số hạng của dãy số trên 
-    int aa = 12345678 ;
+    int aa, dd = 12345678 ;
     cout << "Số đề bài cho là: 12345678; " << "\n";
     int bb = 0;// biến để đếm xem có bao nhiêu số hạng  
 
@@ -47,7 +47,11 @@ int main () {
 
     cout << "                                                 Bài 4   "<< "\n" << endl;
 // Ví dụ 4: cho số như trên dùng vòng lặp while để đếm xem có bao nhiêu số chẵn 
- cout << "Số đề bài cho là: 12345678; " << "\n";
+    cout << "Số đề bài cho là: "<< dd << "\n";
+    int cc = 0;
+    while ( dd != 0 ) {if (dd % 2 == 0) {cc++;  } dd/=10; } // chú ý ko đc để cái lệnh dd/=10 trước lệnh if vì nếu để trc lệnh if thì khi dd = 1 nó sẽ tiếp tục chia 10 là = 0 và 0 : 2 cũng dư 0 nên đk sẽ bị sai
+    // còn khi ta để dd/= 10 đằng sau như thế thì thì khi dd = 1 mà chia cho 10 nó sẽ = 0 r nó sẽ xét tiếp câu lệnh while để ko làm câu lệnh if 
+    cout << cc;
     
 
     }
