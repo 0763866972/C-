@@ -36,7 +36,7 @@ int main () {
     
     cout << "                                                 Bài 3   "<< "\n" << endl;
 // Ví dụ 3: cho số 12345678 dùng vòng lặp while để đếm xem có bao nhiêu số hạng của dãy số trên 
-    int aa, dd = 12345678 ;
+    int aa, dd, ee = 12345678 ;
     cout << "Số đề bài cho là: 12345678; " << "\n";
     int bb = 0;// biến để đếm xem có bao nhiêu số hạng  
 
