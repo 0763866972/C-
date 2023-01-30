@@ -42,6 +42,7 @@ int main () {
 
     cout << "Số đề bài cho là: "<< aa << "\n";
     int bb = 0;// biến để đếm xem có bao nhiêu số hạng  bài 3
+    int cc = 0;// biến đếm của bài 4 nha
     int ff = 0;// biến đếm lun mà của bài 5 cơ
 
     while ( aa != 0 ) { aa = aa / 10 ; bb++;  }
@@ -52,7 +53,6 @@ int main () {
     cout << "                                                 Bài 4   "<< "\n" << endl;
 // Ví dụ 4: cho số như trên dùng vòng lặp while để đếm xem có bao nhiêu số chẵn 
     cout << "Số đề bài cho là: "<< dd << "\n";
-    int cc = 0;
     while ( dd != 0 ) {if (dd % 2 == 0) {cc++;  } dd/=10; } // chú ý ko đc để cái lệnh dd/=10 trước lệnh if vì nếu để trc lệnh if thì khi dd = 1 nó sẽ tiếp tục chia 10 là = 0 và 0 : 2 cũng dư 0 nên đk sẽ bị sai
     // còn khi ta để dd/= 10 đằng sau như thế thì thì khi dd = 1 mà chia cho 10 nó sẽ = 0 r nó sẽ xét tiếp câu lệnh while để ko làm câu lệnh if 
     cout << cc;
