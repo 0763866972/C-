@@ -54,5 +54,5 @@ int main () {
     cout << cc;
      cout << "                                                 Bài 5   "<< "\n" << endl;
 // Ví dụ 5: Cho số  như trên đếm dùng vòng lặp while để đếm xem có bao nhiêu số lẻ.  
-
+cout << "Số đề bài cho là: "<< ee;
     }
