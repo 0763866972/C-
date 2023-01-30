@@ -1,4 +1,4 @@
-//                                                              vòng lặp while và do while
+//                                                              vòng lặp while và do while ( Chpater 6 là do while nhé ) 
 // cấu trúc vòng lặp while (điều kiện){ code và điều kiện lặp của lệnh while  } thấy thì giống vs if nhưng nó khác á nha 
 // nó con thêm cái điều kiện lặp của lệnh while nữa 
 // có thể bỏ qua vòng lặp while bằng dòng lệnh break  nếu while mà nó gặp dòng lệnh break thì nó sẽ dừng vòng lă
