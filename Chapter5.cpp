@@ -53,6 +53,6 @@ int main () {
     // còn khi ta để dd/= 10 đằng sau như thế thì thì khi dd = 1 mà chia cho 10 nó sẽ = 0 r nó sẽ xét tiếp câu lệnh while để ko làm câu lệnh if 
     cout << cc;
      cout << "                                                 Bài 5   "<< "\n" << endl;
-// Ví dụ 5: Cho số  như trên đếm dùng vòng lặp while để đếm xem có bao nhiêu số lẻ 
+// Ví dụ 5: Cho số  như trên đếm dùng vòng lặp while để đếm xem có bao nhiêu số lẻ hú
 
     }
