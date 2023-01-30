@@ -31,14 +31,18 @@ int main () {
     cout <<  "Mời bạn nhập giá trị n: ";
     cin >> c;
     while ( a <= 2 * c  ) { if ( a % 2 == 0) { b = b + a;  } a++; }
-    cout <<  "Tổng là "<<b<<"\n"; 
+    cout <<  "Tổng là "<<b<<"\n"<<"\n"; 
     
     
     cout << "                                                 Bài 3   "<< "\n" << endl;
 // Ví dụ 3: cho số 12345678 dùng vòng lặp while để đếm xem có bao nhiêu số hạng của dãy số trên 
-    int aa, dd, ee = 12345678 ;
-    cout << "Số đề bài cho là: 12345678; " << "\n";
-    int bb = 0;// biến để đếm xem có bao nhiêu số hạng  
+    int aa = 12345678;
+    int ee = 12345678;
+    int dd = 12345678;
+
+    cout << "Số đề bài cho là: "<< aa << "\n";
+    int bb = 0;// biến để đếm xem có bao nhiêu số hạng  bài 3
+    int ff = 0;// biến đếm lun mà của bài 5 cơ
 
     while ( aa != 0 ) { aa = aa / 10 ; bb++;  }
      cout <<"Số các số hạng là:  "<< bb <<"\n";
@@ -54,5 +58,7 @@ int main () {
     cout << cc;
      cout << "                                                 Bài 5   "<< "\n" << endl;
 // Ví dụ 5: Cho số  như trên đếm dùng vòng lặp while để đếm xem có bao nhiêu số lẻ.  
-cout << "Số đề bài cho là: "<< ee;
+    cout << "Số đề bài cho là: "<< ee<< "\n"; 
+    while ( ee != 0 ) {if (ee % 2 != 0) {ff++;  } ee/=10; } 
+    cout << ff;
     }
