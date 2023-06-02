@@ -22,7 +22,7 @@
 //int là kiểu dữ liệu  trả về ko cần biết quá nhiều
          int main () { // chuơng trình C++ sẽ bắt đầu bằng hàm MAIN hiểu đơn giảng là khi có main thì ta mới 
 // nhập câu lệnh và chạy câu lệnh đc BẮT BUỘC PHẢI CÓ
-// \n bên dưới là để in cho nó xuống dòng trong thư viện stdio.h  
+// \n bên dưới là để in cho nó xuống dòng trong thư viện stdio.h hoặc là iostream cũng được 
          printf(" Tên tôi là\n " ); // lệnh dùng để in ra màn hình nhớ đặt trong dấu nháy kép và kết thúc bằng dấu; và lệnh in này ở thư viện stdio.h 
          cout << "PGA" << endl; // này cũng là lệnh để in ra màn hình nhưng là trong thư viện iostream
          
@@ -91,7 +91,7 @@
        
                                  // + đối vs iostream
         cin >>f>>u;
-        cout << "" << endl;   
+        cout << endl;   
         cout << " giá trị của f là:" << f <<  endl;     
         cout << " giá trị của u là:" << u << endl;          
 
@@ -108,7 +108,10 @@
             // do mình khai báo biến z, y r và lệnh nhâp biến từ màn hình r nên không cần làm lại nến bạn chưa khai báo và chưa có lệnh nhập thì bạn phải làm á nha            
         int tong = z + y; // bên thư viện stdio.h thì cần phải khai báo hàm tổng chú ý tổng là biến nên ko đc ghi có dấu
                           // ( z + 1 ) <=> z++ cái nài là tăng sau 
-                          // ( z + 1 ) <=> ++z nhưng cái này là tăng trước
+                          // ví dụ ta có a = 100 ; b = a++ z thì khi in ra màn hình thì thằng b có giá trị là 100 
+                          // còn thằng a là 101 do a++ có nghĩa là a công thêm một đơn vị còn CỘNG NẰM PHÍA SAU đó
+                          // có nghĩa là mình gán giá trị của thằng b bằng 100 zô trc rồi mình mới tăng thằng a lên +1 tức là tăng sau
+                          // ( z + 1 ) <=> ++z nhưng cái này là tăng trước tức là gán thằng b = 101 (=a+1) trước rồi mới tới thằng a = a+1 tức là tăng trước
         int tich = z * y; 
         float chia = (float)z / y; // chia nhưng để z để nó ra đc 1, mấy ra số chính xác
                                   // hai số nguyên chia nhau sẽ ra số nguyên  
@@ -129,7 +132,7 @@
         cout << "f + u = " << f + u << endl;
 	cout << "f - u = " << f - u << endl;
 	cout << "f * u = " << f * u << endl;
-	cout << "f / u = " << (f*1.0) / u << endl;
+	cout << "f / u = " << (f*1.0) / u << endl; // nhân 1.0 để nó trở thnahf kiểu số thực 
 	cout << "f % u = " << f % u << endl;                    
 
 //Phép toán của math.h 
