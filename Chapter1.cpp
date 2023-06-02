@@ -111,7 +111,7 @@
                           // ví dụ ta có a = 100 ; b = a++ z thì khi in ra màn hình thì thằng b có giá trị là 100 
                           // còn thằng a là 101 do a++ có nghĩa là a công thêm một đơn vị còn CỘNG NẰM PHÍA SAU đó
                           // có nghĩa là mình gán giá trị của thằng b bằng 100 zô trc rồi mình mới tăng thằng a lên +1 tức là tăng sau
-                          // ( z + 1 ) <=> ++z nhưng cái này là tăng trước tức là gán thằng b = 101 (=a+1) trước rồi mới tới thằng a = a+1 tức là tăng trước
+                          // ( z + 1 ) <=> ++z nhưng cái này là tăng trước tức là gán thằng b = 101 (=a+1) trước rồi mới tới thằng a = a+1 tức là tăng trước hiểu chưa
         int tich = z * y; 
         float chia = (float)z / y; // chia nhưng để z để nó ra đc 1, mấy ra số chính xác
                                   // hai số nguyên chia nhau sẽ ra số nguyên  
@@ -128,7 +128,7 @@
 
 
 
-                                  //+ Đối với iostream 
+                                  //+ Đối với iostream
         cout << "f + u = " << f + u << endl;
 	cout << "f - u = " << f - u << endl;
 	cout << "f * u = " << f * u << endl;
