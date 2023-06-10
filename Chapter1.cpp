@@ -41,6 +41,7 @@
     // + float      kiểu số thực    8 byte 32 bit  đặt tả là  ((({" %f "})))))  
     // + double     kiểu số thực    16 byte 64 bit đặt tả là  ((({" %lf "}))))) 
     // + char       kiểu kí tự      1 byte 4 bit   đặt tả là  ((({" %c "}))))) xem chương 3 ví dụ 2 để hiểu bài toán về phép tính
+    // + setprecision(n) in ra màn hình số chính xác có n chữ số thập phân vd cho a=2 và n ở trọng lệnh trên bằng 3 khi in ra màn hình sẽ là 3.000
     // + unsigned đằng trước thì nó là bao gồm các dãy số mà ko âm nha vd: unsignedint kiểu dữ liệu int có độ dài từ -2*10^9 --> 2*10^9 ==> unsignedint sẽ có độ dài từ 0 --> 2*10^9
     // + cách tính độ dài hiểu dữ liệu ở bên dưới chú ý dấu (âm) được tính là 1 bit r nha 
     // *** thằng nào nhiều byte hơn thì sẽ lưu đc nhiều số hơn và sẽ chính xác hơn 
@@ -112,6 +113,7 @@
                           // còn thằng a là 101 do a++ có nghĩa là a công thêm một đơn vị còn CỘNG NẰM PHÍA SAU đó
                           // có nghĩa là mình gán giá trị của thằng b bằng 100 zô trc rồi mình mới tăng thằng a lên +1 tức là tăng sau
                           // ( z + 1 ) <=> ++z nhưng cái này là tăng trước tức là gán thằng b = 101 (=a+1) trước rồi mới tới thằng a = a+1 tức là tăng trước hiểu chưa
+                          // -- cũng tương tự 
         int tich = z * y; 
         float chia = (float)z / y; // chia nhưng để z để nó ra đc 1, mấy ra số chính xác
                                   // hai số nguyên chia nhau sẽ ra số nguyên  
