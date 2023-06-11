@@ -135,7 +135,31 @@ cin >> i >> o >> p;
 if ( i > o && i > p )  { cout << "Số lớn nhất là:"<< i; } 
 else if ( o > i && o > p )  { cout << "Số lớn nhất là:"<< o; } 
 else {cout << "Số lớn nhất là:"<< p; }
+// ví dụ 5 kiểm tra loại tam giác (đều, cân, vuông cân, vuông, thường, ko phải tam giác)
+cout << "                                                       BÀI TẬP SỐ 5 " << endl;
+int b, m, w;
+cout << "Mời nhập các cạnh của tam giác: ";
+cin >> b;
+cin >> m;
+cin >> w;
 
+if (b + m > w && b + w > m && m + w > b) {
+    if (b == m && m == w) {
+        cout << "Đều";
+    } else if (b == m || b == w || m == w) {
+        if (b * b == m * m + w * w || m * m == b * b + w * w || w * w == b * b + m * m) {
+            cout << "Tam giác vuông cân";
+        } else {
+            cout << "Tam giác cân";
+        }
+    } else if (b * b == m * m + w * w || m * m == b * b + w * w || w * w == b * b + m * m) {
+        cout << "Tam giác vuông";
+    } else {
+        cout << "Tam giác thường";
+    }
+} else {
+    cout << "Không có tam giác";
+}
 
 }
 
