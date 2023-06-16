@@ -1,5 +1,9 @@
-//                                                              vòng lặp while và do while 
+//                                                              vòng lặp while và do while
+// vòng lặp while sử dụng khi chưa biết trước mình sẽ lặp bao nhiêu vòng lặp  
 // cấu trúc vòng lặp while (điều kiện){ code và điều kiện lặp của lệnh while  } thấy thì giống vs if nhưng nó khác á nha 
+// chỗ điều kiện mình có thể thay bằng một số nào đó khác 0 giống thằng for nghĩa là điều
+// kiện đó lun đúng giống thằng for của ví dụ bên kia 
+
 // nó con thêm cái điều kiện lặp của lệnh while nữa 
 // có thể bỏ qua vòng lặp while bằng dòng lệnh break  nếu while mà nó gặp dòng lệnh break thì nó sẽ dừng vòng lặp ngay lập tức
 // nếu gặp lệnh continue thì nó sẽ ko thực hiện câu lệnh code mà nó sẽ thực hiện lại vòng lặp while 
